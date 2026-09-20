@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-tertiary-container":"#002f38","inverse-surface":"#dee2f6","on-primary":"#1000a9","background":"#0e1321","surface-container-lowest":"#090e1c","on-secondary":"#3c0091","on-tertiary":"#003640","surface-container":"#1a1f2e","tertiary-fixed":"#acedff","inverse-on-surface":"#2b303f","primary":"#c0c1ff","error-container":"#93000a","surface-container-highest":"#303444","surface-bright":"#343948","primary-container":"#8083ff","on-primary-fixed":"#07006c","secondary-fixed":"#e9ddff","tertiary-fixed-dim":"#4cd7f6","tertiary":"#4cd7f6","secondary-container":"#571bc1","on-primary-fixed-variant":"#2f2ebe","on-secondary-fixed":"#23005c","on-secondary-fixed-variant":"#5516be","outline":"#908fa0","surface-dim":"#0e1321","inverse-primary":"#494bd6","on-error":"#690005","on-secondary-container":"#c4abff","surface-container-high":"#252a39","surface":"#0e1321","on-primary-container":"#0d0096","error":"#ffb4ab","on-error-container":"#ffdad6","secondary-fixed-dim":"#d0bcff","secondary":"#d0bcff","surface-container-low":"#161b2a","on-surface":"#dee2f6","on-surface-variant":"#c7c4d7","surface-tint":"#c0c1ff","outline-variant":"#464554","on-tertiary-fixed":"#001f26","primary-fixed":"#e1e0ff","on-background":"#dee2f6","on-tertiary-fixed-variant":"#004e5c","surface-variant":"#303444","tertiary-container":"#009eb9","primary-fixed-dim":"#c0c1ff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter":"1.5rem","space-sm":"0.5rem","space-md":"1rem","space-xl":"2.5rem","space-xs":"0.25rem","gutter-mobile":"1rem","margin":"3rem","margin-mobile":"1.25rem","space-lg":"1.5rem"},"fontFamily":{"headline-md":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"label-sm":["Inter"],"headline-sm":["Plus Jakarta Sans"],"label-lg":["Inter"],"headline-lg":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"body-sm":["Inter"],"label-md":["Inter"],"display-lg-mobile":["Plus Jakarta Sans"],"body-md":["Inter"],"body-lg":["Inter"],"code-sm":["JetBrains Mono"]},"fontSize":{"headline-md":["28px",{"lineHeight":"36px","fontWeight":"600"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","fontWeight":"700"}],"label-sm":["10px",{"lineHeight":"14px","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","fontWeight":"600"}],"headline-lg":["40px",{"lineHeight":"48px","fontWeight":"700"}],"display-lg":["56px",{"lineHeight":"64px","fontWeight":"800"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","fontWeight":"500"}],"display-lg-mobile":["36px",{"lineHeight":"44px","fontWeight":"800"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"code-sm":["12px",{"lineHeight":"16px","fontWeight":"500"}]}}}}</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.25)]"><div class="h-16 w-full px-gutter-mobile lg:px-gutter flex items-center justify-between"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm group" data-path="dashboard" href="../videoqr_studio_dashboard_analytics/code.html"><div class="w-9 h-9 rounded-xl bg-surface-container-high flex items-center justify-center text-tertiary transition-transform group-hover:scale-105 shadow-[0_0_12px_rgba(76,215,246,0.2)]"><span class="material-symbols-outlined text-[22px]">qr_code_2</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">VideoQR</span><span class="font-label-sm text-label-sm text-tertiary uppercase tracking-widest leading-none mt-0.5">Studio</span></div></a><nav class="hidden md:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-on-surface font-label-lg rounded-full px-space-md py-1.5 shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)]"><a aria-current="page" class="transition-all bg-surface-container-high text-on-surface font-label-lg rounded-full px-space-md py-1.5 shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)]" data-path="studio" href="../videoqr_studio_create_customize_qr/code.html">Studio</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-1.5 rounded-full transition-all" data-path="dashboard" href="../videoqr_studio_dashboard_analytics/code.html">Dashboard</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-1.5 rounded-full transition-all" data-path="public-video-view" href="../public_video_playback_videoqr_studio/code.html">Public Demo</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-1.5 rounded-full transition-all" data-path="docs-and-api" href="#">Docs / API</a></nav></div><div class="flex items-center gap-space-sm"><button aria-label="Toggle color mode" class="w-9 h-9 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-all" type="button"><span class="material-symbols-outlined text-[20px]">light_mode</span></button><a class="hidden sm:inline-flex items-center gap-space-xs rounded-full bg-primary-container px-space-md py-2 font-label-lg text-label-lg text-on-primary-container hover:bg-primary transition-all shadow-[0_0_20px_rgba(128,131,255,0.35)]" data-path="studio" href="../videoqr_studio_create_customize_qr/code.html"><span class="material-symbols-outlined text-[18px]">cloud_upload</span><span>Upload Video</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 pb-20 md:pb-0 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Subtle Ambient Glow Orbs -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-32 left-1/4 w-96 h-96 bg-primary-container/15 rounded-full blur-[120px] pointer-events-none"></div>
+<div class="absolute top-48 right-10 w-80 h-80 bg-tertiary/10 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="max-w-[1440px] mx-auto px-gutter-mobile lg:px-gutter py-space-xl">
+<!-- Section 1: Atmospheric Hero Introduction -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-lg mb-space-xl">
+<div class="max-w-3xl">
+<div class="inline-flex items-center gap-space-xs px-3 py-1 rounded-full bg-surface-container-high/80 text-tertiary font-label-sm text-label-sm uppercase tracking-widest mb-space-sm shadow-[0_0_16px_rgba(76,215,246,0.15)]">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary animate-ping"></span>
+<span>Next-Gen Video QR Engine</span>
+<span class="text-on-surface-variant">•</span>
+<span class="text-on-surface">v2.4 Ready</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight leading-tight">
+            Turn Your Videos Into <span class="bg-gradient-to-r from-primary via-tertiary to-secondary bg-clip-text text-transparent">Beautiful QR Codes</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-sm max-w-2xl">
+            Upload a video, customize your QR code, and share it anywhere. Calibrated for ultra-high scan velocity and cinematic playback fidelity.
+          </p>
+</div>
+<!-- Telemetry Pill / Server Sync Indicator -->
+<div class="flex items-center gap-space-md p-space-sm bg-surface-container-low/90 rounded-2xl shadow-sm self-start md:self-end">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[22px]">hub</span>
+</div>
+<div class="flex flex-col pr-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Dynamic CDN Edge</span>
+<span class="font-code-sm text-code-sm text-on-surface flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span> 99.98% scannability
+            </span>
+</div>
+</div>
+</div>
+<!-- Section 2: Upload & Video State Card -->
+<div class="w-full bg-surface-container/75 backdrop-blur-2xl rounded-2xl p-space-md md:p-space-lg mb-space-xl shadow-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+<!-- Dropzone Left Area (7 Cols) -->
+<div class="lg:col-span-7 relative group cursor-pointer bg-surface-container-lowest/80 rounded-xl p-space-lg flex flex-col items-center justify-center text-center transition-all duration-300 hover:bg-surface-container-low shadow-inner" id="dropzone">
+<input accept="video/mp4,video/quicktime,video/webm" class="absolute inset-0 opacity-0 cursor-pointer z-10" id="video-file-input" type="file"/>
+<div class="w-14 h-14 rounded-2xl bg-surface-container-high/90 text-tertiary flex items-center justify-center shadow-[0_0_24px_rgba(76,215,246,0.25)] group-hover:scale-110 transition-transform mb-space-md">
+<span class="material-symbols-outlined text-[28px]">cloud_upload</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-headline-sm text-headline-sm text-on-surface mb-1">
+                Drop your high-bitrate video here
+              </span>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">
+                Drag &amp; drop or click to browse local files. Automatic ultra-fast transcoding to streaming-optimized WebM/H.265.
+              </p>
+</div>
+<!-- Validation Badges -->
+<div class="flex flex-wrap items-center justify-center gap-space-xs mt-space-md">
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-code-sm text-code-sm text-primary">MP4 / H.264</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-code-sm text-code-sm text-tertiary">MOV / ProRes</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-code-sm text-code-sm text-secondary">WebM VP9</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-code-sm text-code-sm text-on-surface-variant">Max 500MB</span>
+</div>
+</div>
+<!-- Active Upload Telemetry / Link Panel (5 Cols) -->
+<div class="lg:col-span-5 flex flex-col justify-between bg-surface-container-low/70 rounded-xl p-space-lg space-y-space-md shadow-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-3 h-3 rounded-full bg-tertiary shadow-[0_0_10px_#4cd7f6]"></span>
+<span class="font-label-lg text-label-lg text-on-surface">drone_cinematic_sunset.mp4</span>
+</div>
+<span class="font-code-sm text-code-sm text-on-surface-variant">24.8 MB</span>
+</div>
+<!-- Upload Progress Bar -->
+<div>
+<div class="flex justify-between items-center text-label-sm font-label-sm mb-1.5">
+<span class="text-tertiary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">cloud_done</span>
+                  Uploaded to Supabase bucket: videos ✓
+                </span>
+<span class="text-on-surface font-code-sm font-semibold" id="upload-percent">100%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest overflow-hidden p-0.5">
+<div class="h-full rounded-full bg-gradient-to-r from-primary via-tertiary to-tertiary-fixed w-full transition-all duration-500 shadow-[0_0_12px_rgba(76,215,246,0.5)]" id="progress-indicator"></div>
+</div>
+</div>
+<!-- Unique ID & Public Link Box -->
+<div class="p-space-sm bg-surface-container-lowest/90 rounded-lg">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Video ID &amp; Dynamic URL</span>
+<span class="font-code-sm text-code-sm text-tertiary font-bold">#a8f72c91</span>
+</div>
+<div class="flex items-center justify-between gap-space-sm">
+<div class="font-code-sm text-code-sm text-on-surface truncate">
+                  https://videoqr.studio/video/a8f72c91
+                </div>
+<button class="shrink-0 px-3 py-1.5 rounded-full bg-primary-container hover:bg-primary text-on-primary-container font-label-sm text-label-sm font-semibold transition-all flex items-center gap-1 shadow-sm" id="copy-link-btn" type="button">
+<span class="material-symbols-outlined text-[14px]">content_copy</span>
+<span>Copy</span>
+</button>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<a class="font-label-md text-label-md text-tertiary hover:underline flex items-center gap-1" data-path="public-video-view" href="../public_video_playback_videoqr_studio/code.html">
+<span>Preview direct playback page</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+<span class="font-code-sm text-code-sm text-on-surface-variant">Ready in 0.4s</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Section 3: Interactive Workspace (Split Studio Layout) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Left: Studio Customizer Controls (7 cols) -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<!-- Control Panel Shell -->
+<div class="bg-surface-container/70 backdrop-blur-2xl rounded-2xl p-space-md md:p-space-lg shadow-xl space-y-space-xl">
+<!-- Header for panel -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[24px]">tune</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">QR Code Customizer</h2>
+</div>
+<button class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface underline" id="reset-style-btn" type="button">
+                Reset to Default
+              </button>
+</div>
+<!-- MODULE 1: DOT PATTERNS -->
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<label class="font-label-lg text-label-lg text-on-surface">Dot Matrix Style</label>
+<span class="font-code-sm text-code-sm text-on-surface-variant" id="active-dot-name">Rounded</span>
+</div>
+<div class="grid grid-cols-3 sm:grid-cols-6 gap-2" id="dot-styles-container">
+<button class="dot-btn py-2.5 px-2 rounded-xl bg-surface-container-high text-on-surface-variant hover:text-on-surface flex flex-col items-center gap-1 transition-all" data-style="square" type="button">
+<span class="material-symbols-outlined text-[18px]">square</span>
+<span class="font-label-sm text-label-sm">Square</span>
+</button>
+<button class="dot-btn active-chip py-2.5 px-2 rounded-xl bg-primary-container text-on-primary-container flex flex-col items-center gap-1 shadow-md transition-all" data-style="rounded" type="button">
+<span class="material-symbols-outlined text-[18px]">check_box_outline_blank</span>
+<span class="font-label-sm text-label-sm font-bold">Rounded</span>
+</button>
+<button class="dot-btn py-2.5 px-2 rounded-xl bg-surface-container-high text-on-surface-variant hover:text-on-surface flex flex-col items-center gap-1 transition-all" data-style="dots" type="button">
+<span class="material-symbols-outlined text-[18px]">circle</span>
+<span class="font-label-sm text-label-sm">Dots</span>
+</button>
+<button class="dot-btn py-2.5 px-2 rounded-xl bg-surface-container-high text-on-surface-variant hover:text-on-surface flex flex-col items-center gap-1 transition-all" data-style="classy" type="button">
+<span class="material-symbols-outlined text-[18px]">diamond</span>
+<span class="font-label-sm text-label-sm">Classy</span>
+</button>
+<button class="dot-btn py-2.5 px-2 rounded-xl bg-surface-container-high text-on-surface-variant hover:text-on-surface flex flex-col items-center gap-1 transition-all" data-style="classy-rounded" type="button">
+<span class="material-symbols-outlined text-[18px]">token</span>
+<span class="font-label-sm text-label-sm">Classy R.</span>
+</button>
+<button class="dot-btn py-2.5 px-2 rounded-xl bg-surface-container-high text-on-surface-variant hover:text-on-surface flex flex-col items-center gap-1 transition-all" data-style="extra-rounded" type="button">
+<span class="material-symbols-outlined text-[18px]">radio_button_checked</span>
+<span class="font-label-sm text-label-sm">Smooth</span>
+</button>
+</div>
+</div>
+<!-- MODULE 2: EYE / CORNER STYLES -->
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<label class="font-label-lg text-label-lg text-on-surface">Corner Anchor Eyes</label>
+<span class="font-code-sm text-code-sm text-on-surface-variant">Position Markers</span>
+</div>
+<div class="grid grid-cols-3 gap-space-sm" id="corner-styles-container">
+<button class="corner-btn py-3 px-3 rounded-xl bg-surface-container-high text-on-surface-variant flex items-center justify-center gap-2 transition-all" data-corner="square" type="button">
+<span class="w-4 h-4 border-2 border-current"></span>
+<span class="font-label-md text-label-md">Square</span>
+</button>
+<button class="corner-btn active-chip py-3 px-3 rounded-xl bg-primary-container text-on-primary-container flex items-center justify-center gap-2 shadow-md transition-all" data-corner="rounded" type="button">
+<span class="w-4 h-4 border-2 border-current rounded-sm"></span>
+<span class="font-label-md text-label-md font-semibold">Rounded</span>
+</button>
+<button class="corner-btn py-3 px-3 rounded-xl bg-surface-container-high text-on-surface-variant flex items-center justify-center gap-2 transition-all" data-corner="circle" type="button">
+<span class="w-4 h-4 border-2 border-current rounded-full"></span>
+<span class="font-label-md text-label-md">Circle</span>
+</button>
+</div>
+</div>
+<!-- MODULE 3: PALETTE & SPECTRAL GRADIENT -->
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<label class="font-label-lg text-label-lg text-on-surface">Colors &amp; Gradients</label>
+<!-- Gradient toggle -->
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Gradient:</span>
+<button class="px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold" id="gradient-toggle-btn" type="button">
+                    Linear On
+                  </button>
+</div>
+</div>
+<!-- Color Selectors & Hex inputs -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Color 1 -->
+<div class="p-space-sm bg-surface-container-lowest rounded-xl flex items-center gap-space-sm">
+<input class="w-10 h-10 rounded-lg cursor-pointer bg-transparent border-0" id="primary-color" type="color" value="#6366F1"/>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Primary Gradient</span>
+<input class="font-code-sm text-code-sm text-on-surface bg-transparent focus:outline-none uppercase w-24" id="primary-color-text" type="text" value="#6366F1"/>
+</div>
+</div>
+<!-- Color 2 -->
+<div class="p-space-sm bg-surface-container-lowest rounded-xl flex items-center gap-space-sm">
+<input class="w-10 h-10 rounded-lg cursor-pointer bg-transparent border-0" id="secondary-color" type="color" value="#06B6D4"/>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Secondary Anchor</span>
+<input class="font-code-sm text-code-sm text-on-surface bg-transparent focus:outline-none uppercase w-24" id="secondary-color-text" type="text" value="#06B6D4"/>
+</div>
+</div>
+</div>
+<!-- Background Color + Transparent Toggle -->
+<div class="p-space-sm bg-surface-container-lowest rounded-xl flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<input class="w-9 h-9 rounded-lg cursor-pointer bg-transparent border-0" id="bg-color" type="color" value="#0e1321"/>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Background Plate</span>
+<span class="font-code-sm text-code-sm text-on-surface uppercase" id="bg-color-label">#0E1321</span>
+</div>
+</div>
+<label class="flex items-center gap-2 cursor-pointer">
+<input class="w-4 h-4 rounded accent-primary bg-surface-container-high" id="transparent-bg-toggle" type="checkbox"/>
+<span class="font-label-md text-label-md text-on-surface">Transparent Background</span>
+</label>
+</div>
+<!-- Real-time Dynamic Contrast Indicator -->
+<div class="p-space-sm rounded-xl bg-tertiary-container/20 flex items-center justify-between" id="contrast-box">
+<div class="flex items-center gap-2 text-tertiary">
+<span class="material-symbols-outlined text-[20px]">verified</span>
+<span class="font-label-md text-label-md font-semibold" id="contrast-status">Excellent contrast: 8.4:1 ratio — 100% scannable</span>
+</div>
+<span class="font-code-sm text-code-sm text-tertiary uppercase">Grade A+</span>
+</div>
+</div>
+<!-- MODULE 4: SIZING & ERROR CORRECTION -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- QR Pixel Density / Canvas Size -->
+<div class="space-y-2">
+<label class="font-label-lg text-label-lg text-on-surface">Render Size</label>
+<div class="grid grid-cols-3 gap-2" id="size-toggle-group">
+<button class="size-btn py-2 rounded-lg bg-surface-container-high text-on-surface-variant font-label-md text-label-md hover:text-on-surface" data-size="sm" type="button">
+                    Small
+                  </button>
+<button class="size-btn active-chip py-2 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md font-semibold shadow-sm" data-size="md" type="button">
+                    Medium
+                  </button>
+<button class="size-btn py-2 rounded-lg bg-surface-container-high text-on-surface-variant font-label-md text-label-md hover:text-on-surface" data-size="lg" type="button">
+                    Large
+                  </button>
+</div>
+</div>
+<!-- Error Correction Pills -->
+<div class="space-y-2">
+<div class="flex items-center justify-between">
+<label class="font-label-lg text-label-lg text-on-surface">Error Correction</label>
+<span class="font-code-sm text-code-sm text-on-surface-variant" id="ec-desc">High (30% recovery)</span>
+</div>
+<div class="grid grid-cols-4 gap-2" id="ec-pills-container">
+<button class="ec-pill py-2 rounded-lg bg-surface-container-high text-on-surface-variant font-code-sm text-code-sm" data-ec="L" type="button">L 7%</button>
+<button class="ec-pill py-2 rounded-lg bg-surface-container-high text-on-surface-variant font-code-sm text-code-sm" data-ec="M" type="button">M 15%</button>
+<button class="ec-pill py-2 rounded-lg bg-surface-container-high text-on-surface-variant font-code-sm text-code-sm" data-ec="Q" type="button">Q 25%</button>
+<button class="ec-pill active-chip py-2 rounded-lg bg-primary-container text-on-primary-container font-code-sm text-code-sm font-bold shadow-sm" data-ec="H" type="button">H 30%</button>
+</div>
+</div>
+</div>
+<!-- MODULE 5: LOGO EMBEDDING & OVERLAYS -->
+<div class="space-y-space-md bg-surface-container-lowest/80 p-space-md rounded-xl">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">badge</span>
+<span class="font-label-lg text-label-lg text-on-surface">Center Logo Badge</span>
+</div>
+<!-- Toggle checkbox -->
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" id="logo-toggle" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+<div class="space-y-space-md" id="logo-settings-panel">
+<div class="flex flex-wrap items-center gap-space-md">
+<!-- Logo Choice Chips -->
+<div class="flex items-center gap-2">
+<button class="logo-preset-btn active-chip px-3 py-1.5 rounded-full bg-surface-container-high text-tertiary font-label-sm text-label-sm font-bold flex items-center gap-1 shadow-sm" id="logo-preset-play" type="button">
+<span class="material-symbols-outlined text-[16px]">play_circle</span>
+<span>Play Glint</span>
+</button>
+<button class="logo-preset-btn px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1" id="logo-preset-qr" type="button">
+<span class="material-symbols-outlined text-[16px]">qr_code</span>
+<span>Scan Mark</span>
+</button>
+</div>
+<!-- File upload custom logo -->
+<label class="cursor-pointer px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm flex items-center gap-1 transition-colors">
+<span class="material-symbols-outlined text-[16px]">upload_file</span>
+<span>Upload Custom</span>
+<input accept="image/png,image/svg+xml" class="hidden" id="custom-logo-input" type="file"/>
+</label>
+</div>
+<!-- Logo Size Slider -->
+<div>
+<div class="flex justify-between items-center text-label-sm font-label-sm mb-1 text-on-surface-variant">
+<span>Logo Area Ratio</span>
+<span class="font-code-sm text-on-surface font-semibold" id="logo-size-value">28%</span>
+</div>
+<input class="w-full h-1.5 bg-surface-container-highest rounded-lg appearance-none cursor-pointer accent-tertiary" id="logo-size-slider" max="40" min="20" type="range" value="28"/>
+</div>
+</div>
+</div>
+</div>
+<!-- Feature Cards / Scannability Tips -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="p-space-md rounded-2xl bg-surface-container/40 backdrop-blur-xl flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-xl bg-tertiary/10 text-tertiary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">auto_awesome</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface mb-1">Lossless Vectors</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Exports are sharp down to sub-pixel coordinates for giant billboard prints or tiny sticker labels.</p>
+</div>
+</div>
+<div class="p-space-md rounded-2xl bg-surface-container/40 backdrop-blur-xl flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">speed</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface mb-1">Instant Instant-Scan</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pre-warmed caches ensure mobile camera viewers resolve the direct player instantly.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: Realtime QR Code Preview & Quick Actions (Sticky 5 cols) -->
+<div class="lg:col-span-5 lg:sticky lg:top-20 flex flex-col gap-space-lg">
+<div class="bg-surface-container/75 backdrop-blur-2xl rounded-2xl p-space-lg shadow-2xl relative overflow-hidden flex flex-col items-center text-center">
+<!-- Scan simulator badge -->
+<div class="inline-flex items-center gap-space-xs px-3 py-1 rounded-full bg-tertiary-container/30 text-tertiary font-label-sm text-label-sm mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-[16px] animate-pulse">photo_camera</span>
+<span>Point your camera to test link</span>
+</div>
+<!-- Crisp QR Viewport Canvas Frame -->
+<div class="relative p-6 rounded-2xl bg-surface-container-lowest/90 transition-all duration-300 shadow-xl flex items-center justify-center" id="qr-preview-wrapper">
+<!-- Scanning laser indicator line (animated overlay) -->
+<div class="absolute inset-x-6 top-6 h-0.5 bg-gradient-to-r from-transparent via-tertiary to-transparent opacity-75 animate-pulse pointer-events-none"></div>
+<!-- Reactive QR Code SVG Display -->
+<div class="w-64 h-64 md:w-72 md:h-72 relative flex items-center justify-center select-none transition-transform duration-200 hover:scale-105" id="qr-canvas">
+<svg class="w-full h-full drop-shadow-[0_0_15px_rgba(99,102,241,0.2)]" id="qr-svg" viewbox="0 0 240 240">
+<defs>
+<lineargradient id="qrGrad" x1="0%" x2="100%" y1="0%" y2="100%">
+<stop id="gradStop1" offset="0%" stop-color="#6366F1"></stop>
+<stop id="gradStop2" offset="100%" stop-color="#06B6D4"></stop>
+</lineargradient>
+</defs>
+<!-- Top Left Anchor -->
+<rect fill="none" height="50" id="eye-tl-outer" rx="8" stroke="url(#qrGrad)" stroke-width="8" width="50" x="20" y="20"></rect>
+<rect fill="url(#qrGrad)" height="20" id="eye-tl-inner" rx="4" width="20" x="35" y="35"></rect>
+<!-- Top Right Anchor -->
+<rect fill="none" height="50" id="eye-tr-outer" rx="8" stroke="url(#qrGrad)" stroke-width="8" width="50" x="170" y="20"></rect>
+<rect fill="url(#qrGrad)" height="20" id="eye-tr-inner" rx="4" width="20" x="185" y="35"></rect>
+<!-- Bottom Left Anchor -->
+<rect fill="none" height="50" id="eye-bl-outer" rx="8" stroke="url(#qrGrad)" stroke-width="8" width="50" x="20" y="170"></rect>
+<rect fill="url(#qrGrad)" height="20" id="eye-bl-inner" rx="4" width="20" x="35" y="185"></rect>
+<!-- Simulated High-Density Pattern Grid -->
+<g fill="url(#qrGrad)" id="qr-matrix-dots">
+<!-- Row 1-4 -->
+<rect height="10" rx="3" width="10" x="85" y="20"></rect>
+<rect height="10" rx="3" width="10" x="105" y="20"></rect>
+<rect height="10" rx="3" width="10" x="125" y="20"></rect>
+<rect height="10" rx="3" width="10" x="145" y="20"></rect>
+<rect height="10" rx="3" width="10" x="85" y="40"></rect>
+<rect height="10" rx="3" width="10" x="125" y="40"></rect>
+<rect height="10" rx="3" width="10" x="145" y="40"></rect>
+<rect height="10" rx="3" width="10" x="85" y="60"></rect>
+<rect height="10" rx="3" width="10" x="105" y="60"></rect>
+<rect height="10" rx="3" width="10" x="145" y="60"></rect>
+<!-- Middle Area Matrix -->
+<rect height="10" rx="3" width="10" x="20" y="85"></rect>
+<rect height="10" rx="3" width="10" x="40" y="85"></rect>
+<rect height="10" rx="3" width="10" x="60" y="85"></rect>
+<rect height="10" rx="3" width="10" x="85" y="85"></rect>
+<rect height="10" rx="3" width="10" x="145" y="85"></rect>
+<rect height="10" rx="3" width="10" x="170" y="85"></rect>
+<rect height="10" rx="3" width="10" x="190" y="85"></rect>
+<rect height="10" rx="3" width="10" x="210" y="85"></rect>
+<rect height="10" rx="3" width="10" x="20" y="105"></rect>
+<rect height="10" rx="3" width="10" x="40" y="105"></rect>
+<rect height="10" rx="3" width="10" x="180" y="105"></rect>
+<rect height="10" rx="3" width="10" x="200" y="105"></rect>
+<rect height="10" rx="3" width="10" x="20" y="125"></rect>
+<rect height="10" rx="3" width="10" x="60" y="125"></rect>
+<rect height="10" rx="3" width="10" x="170" y="125"></rect>
+<rect height="10" rx="3" width="10" x="210" y="125"></rect>
+<rect height="10" rx="3" width="10" x="20" y="145"></rect>
+<rect height="10" rx="3" width="10" x="40" y="145"></rect>
+<rect height="10" rx="3" width="10" x="60" y="145"></rect>
+<rect height="10" rx="3" width="10" x="85" y="145"></rect>
+<rect height="10" rx="3" width="10" x="145" y="145"></rect>
+<rect height="10" rx="3" width="10" x="170" y="145"></rect>
+<rect height="10" rx="3" width="10" x="210" y="145"></rect>
+<!-- Bottom Area -->
+<rect height="10" rx="3" width="10" x="85" y="170"></rect>
+<rect height="10" rx="3" width="10" x="105" y="170"></rect>
+<rect height="10" rx="3" width="10" x="125" y="170"></rect>
+<rect height="10" rx="3" width="10" x="170" y="170"></rect>
+<rect height="10" rx="3" width="10" x="190" y="170"></rect>
+<rect height="10" rx="3" width="10" x="85" y="190"></rect>
+<rect height="10" rx="3" width="10" x="125" y="190"></rect>
+<rect height="10" rx="3" width="10" x="145" y="190"></rect>
+<rect height="10" rx="3" width="10" x="170" y="190"></rect>
+<rect height="10" rx="3" width="10" x="85" y="210"></rect>
+<rect height="10" rx="3" width="10" x="105" y="210"></rect>
+<rect height="10" rx="3" width="10" x="145" y="210"></rect>
+<rect height="10" rx="3" width="10" x="190" y="210"></rect>
+<rect height="10" rx="3" width="10" x="210" y="210"></rect>
+</g>
+</svg>
+<!-- Center Brand Glyph Overlap -->
+<div class="absolute w-14 h-14 rounded-2xl bg-surface-container-lowest/95 backdrop-blur-md flex items-center justify-center text-tertiary shadow-[0_0_20px_rgba(0,0,0,0.8)] border border-outline-variant/30 transition-all duration-200" id="center-logo-badge">
+<span class="material-symbols-outlined text-[26px]" id="center-logo-icon">play_arrow</span>
+</div>
+</div>
+</div>
+<!-- Destination metadata -->
+<div class="mt-space-md flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Scans point to</span>
+<a class="font-code-sm text-code-sm text-tertiary hover:underline mt-0.5 flex items-center gap-1" href="https://videoqr.studio/video/a8f72c91" target="_blank">
+<span>videoqr.studio/video/a8f72c91</span>
+<span class="material-symbols-outlined text-[14px]">open_in_new</span>
+</a>
+</div>
+<!-- Quick Action Bar -->
+<div class="w-full mt-space-lg space-y-space-sm">
+<div class="grid grid-cols-3 gap-2">
+<button class="py-2 px-3 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md font-semibold transition-all flex items-center justify-center gap-1" id="dl-png-btn" type="button">
+<span class="material-symbols-outlined text-[16px]">image</span>
+<span>PNG</span>
+</button>
+<button class="py-2 px-3 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md font-semibold transition-all flex items-center justify-center gap-1" id="dl-jpg-btn" type="button">
+<span class="material-symbols-outlined text-[16px]">photo</span>
+<span>JPG</span>
+</button>
+<button class="py-2 px-3 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-tertiary font-label-md text-label-md font-semibold transition-all flex items-center justify-center gap-1" id="dl-svg-btn" type="button">
+<span class="material-symbols-outlined text-[16px]">draw</span>
+<span>SVG</span>
+</button>
+</div>
+<!-- Primary Share & Test Actions -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
+<button class="w-full py-2.5 px-4 rounded-full bg-gradient-to-r from-primary-container to-secondary-container text-white font-label-lg text-label-lg font-semibold flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(128,131,255,0.3)] hover:opacity-95 transition-opacity" id="share-web-api-btn" type="button">
+<span class="material-symbols-outlined text-[18px]">share</span>
+<span>Share QR</span>
+</button>
+<a class="w-full py-2.5 px-4 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-lg text-label-lg font-semibold flex items-center justify-center gap-2 transition-all" data-path="public-video-view" href="../public_video_playback_videoqr_studio/code.html">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+<span>Test Player View</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Direct Scans Telemetry Summary -->
+<div class="bg-surface-container-low/80 backdrop-blur-xl rounded-2xl p-space-md shadow-md flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-xl bg-surface-container-high text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">analytics</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">1,492 Scans</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Live telemetry tracker</span>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-tertiary/10 text-tertiary font-code-sm text-code-sm font-semibold">+18% today</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Toast Notification Overlay -->
+<div class="fixed bottom-20 md:bottom-8 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none flex items-center gap-2 px-4 py-3 rounded-xl bg-surface-container-highest text-on-surface shadow-2xl" id="toast">
+<span class="material-symbols-outlined text-tertiary text-[20px]" id="toast-icon">check_circle</span>
+<span class="font-label-md text-label-md font-medium" id="toast-message">Notification message</span>
+</div>
+</div>
+<script>
+  (function() {
+    // Toast Helper
+    const toast = document.getElementById('toast');
+    const toastMessage = document.getElementById('toast-message');
+    const toastIcon = document.getElementById('toast-icon');
+    let toastTimeout;
+
+    function showToast(msg, icon = 'check_circle') {
+      if (!toast) return;
+      toastMessage.textContent = msg;
+      toastIcon.textContent = icon;
+      toast.classList.remove('translate-y-24', 'opacity-0', 'pointer-events-none');
+      toast.classList.add('translate-y-0', 'opacity-100');
+      clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        toast.classList.add('translate-y-24', 'opacity-0', 'pointer-events-none');
+        toast.classList.remove('translate-y-0', 'opacity-100');
+      }, 2600);
+    }
+
+    // Interactive State Elements
+    const qrMatrixDots = document.getElementById('qr-matrix-dots');
+    const eyeTLOuter = document.getElementById('eye-tl-outer');
+    const eyeTROuter = document.getElementById('eye-tr-outer');
+    const eyeBLOuter = document.getElementById('eye-bl-outer');
+    const eyeTLInner = document.getElementById('eye-tl-inner');
+    const eyeTRInner = document.getElementById('eye-tr-inner');
+    const eyeBLInner = document.getElementById('eye-bl-inner');
+    const gradStop1 = document.getElementById('gradStop1');
+    const gradStop2 = document.getElementById('gradStop2');
+    const qrPreviewWrapper = document.getElementById('qr-preview-wrapper');
+    const centerLogoBadge = document.getElementById('center-logo-badge');
+    const centerLogoIcon = document.getElementById('center-logo-icon');
+    const activeDotName = document.getElementById('active-dot-name');
+
+    // 1. Dot Styles Selection
+    const dotButtons = document.querySelectorAll('.dot-btn');
+    dotButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        dotButtons.forEach(b => {
+          b.classList.remove('active-chip', 'bg-primary-container', 'text-on-primary-container', 'shadow-md');
+          b.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+        });
+        btn.classList.add('active-chip', 'bg-primary-container', 'text-on-primary-container', 'shadow-md');
+        btn.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+
+        const style = btn.getAttribute('data-style');
+        activeDotName.textContent = btn.querySelector('span:last-child').textContent;
+        
+        // Morph the rect dots
+        if (!qrMatrixDots) return;
+        const rects = qrMatrixDots.querySelectorAll('rect');
+        rects.forEach(r => {
+          if (style === 'square') {
+            r.setAttribute('rx', '0');
+          } else if (style === 'rounded') {
+            r.setAttribute('rx', '3');
+          } else if (style === 'dots') {
+            r.setAttribute('rx', '5');
+          } else if (style === 'classy') {
+            r.setAttribute('rx', '1');
+            r.setAttribute('transform', 'rotate(45 ' + (parseFloat(r.getAttribute('x')) + 5) + ' ' + (parseFloat(r.getAttribute('y')) + 5) + ')');
+          } else if (style === 'classy-rounded') {
+            r.setAttribute('rx', '4');
+          } else if (style === 'extra-rounded') {
+            r.setAttribute('rx', '6');
+          }
+        });
+        showToast(`Pattern updated to ${activeDotName.textContent}`);
+      });
+    });
+
+    // 2. Corner / Eye Styles Selection
+    const cornerButtons = document.querySelectorAll('.corner-btn');
+    cornerButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        cornerButtons.forEach(b => {
+          b.classList.remove('active-chip', 'bg-primary-container', 'text-on-primary-container', 'shadow-md');
+          b.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+        });
+        btn.classList.add('active-chip', 'bg-primary-container', 'text-on-primary-container', 'shadow-md');
+        btn.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+
+        const corner = btn.getAttribute('data-corner');
+        const outerRx = corner === 'square' ? '0' : corner === 'rounded' ? '8' : '25';
+        const innerRx = corner === 'square' ? '0' : corner === 'rounded' ? '4' : '10';
+
+        [eyeTLOuter, eyeTROuter, eyeBLOuter].forEach(el => el && el.setAttribute('rx', outerRx));
+        [eyeTLInner, eyeTRInner, eyeBLInner].forEach(el => el && el.setAttribute('rx', innerRx));
+
+        showToast(`Anchor corners set to ${corner}`);
+      });
+    });
+
+    // 3. Colors & Hex Inputs
+    const pColor = document.getElementById('primary-color');
+    const pColorText = document.getElementById('primary-color-text');
+    const sColor = document.getElementById('secondary-color');
+    const sColorText = document.getElementById('secondary-color-text');
+    const bgColor = document.getElementById('bg-color');
+    const bgColorLabel = document.getElementById('bg-color-label');
+    const transparentToggle = document.getElementById('transparent-bg-toggle');
+    const gradientToggleBtn = document.getElementById('gradient-toggle-btn');
+    let isGradient = true;
+
+    function updateColors() {
+      if (gradStop1) gradStop1.setAttribute('stop-color', pColor.value);
+      if (gradStop2) gradStop2.setAttribute('stop-color', isGradient ? sColor.value : pColor.value);
+      pColorText.value = pColor.value.toUpperCase();
+      sColorText.value = sColor.value.toUpperCase();
+    }
+
+    pColor?.addEventListener('input', () => updateColors());
+    pColorText?.addEventListener('change', (e) => {
+      pColor.value = e.target.value;
+      updateColors();
+    });
+
+    sColor?.addEventListener('input', () => updateColors());
+    sColorText?.addEventListener('change', (e) => {
+      sColor.value = e.target.value;
+      updateColors();
+    });
+
+    gradientToggleBtn?.addEventListener('click', () => {
+      isGradient = !isGradient;
+      gradientToggleBtn.textContent = isGradient ? 'Linear On' : 'Solid Single';
+      gradientToggleBtn.classList.toggle('bg-secondary-container');
+      gradientToggleBtn.classList.toggle('bg-surface-container-high');
+      updateColors();
+      showToast(isGradient ? 'Gradient mode enabled' : 'Solid color mode enabled');
+    });
+
+    bgColor?.addEventListener('input', () => {
+      if (qrPreviewWrapper && !transparentToggle?.checked) {
+        qrPreviewWrapper.style.backgroundColor = bgColor.value;
+        bgColorLabel.textContent = bgColor.value.toUpperCase();
+      }
+    });
+
+    transparentToggle?.addEventListener('change', (e) => {
+      if (!qrPreviewWrapper) return;
+      if (e.target.checked) {
+        qrPreviewWrapper.style.backgroundColor = 'transparent';
+        qrPreviewWrapper.classList.add('border', 'border-dashed', 'border-outline-variant/40');
+        showToast('Transparent canvas enabled');
+      } else {
+        qrPreviewWrapper.style.backgroundColor = bgColor.value;
+        qrPreviewWrapper.classList.remove('border', 'border-dashed', 'border-outline-variant/40');
+        showToast('Background restored');
+      }
+    });
+
+    // 4. Render Size Buttons
+    const sizeButtons = document.querySelectorAll('.size-btn');
+    const qrCanvas = document.getElementById('qr-canvas');
+    sizeButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        sizeButtons.forEach(b => {
+          b.classList.remove('active-chip', 'bg-primary-container', 'text-on-primary-container', 'shadow-sm');
+          b.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+        });
+        btn.classList.add('active-chip', 'bg-primary-container', 'text-on-primary-container', 'shadow-sm');
+        btn.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+
+        const sz = btn.getAttribute('data-size');
+        if (qrCanvas) {
+          qrCanvas.classList.remove('w-52', 'h-52', 'w-64', 'h-64', 'w-72', 'h-72', 'w-80', 'h-80');
+          if (sz === 'sm') qrCanvas.classList.add('w-52', 'h-52');
+          else if (sz === 'md') qrCanvas.classList.add('w-64', 'h-64', 'md:w-72', 'md:h-72');
+          else qrCanvas.classList.add('w-72', 'h-72', 'md:w-80', 'md:h-80');
+        }
+        showToast(`Viewport render: ${btn.textContent.trim()}`);
+      });
+    });
+
+    // 5. Error Correction
+    const ecPills = document.querySelectorAll('.ec-pill');
+    const ecDesc = document.getElementById('ec-desc');
+    const ecMap = {
+      'L': 'Low (7% recovery)',
+      'M': 'Medium (15% recovery)',
+      'Q': 'Quartile (25% recovery)',
+      'H': 'High (30% recovery)'
+    };
+    ecPills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        ecPills.forEach(p => {
+          p.classList.remove('active-chip', 'bg-primary-container', 'text-on-primary-container', 'font-bold', 'shadow-sm');
+          p.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+        });
+        pill.classList.add('active-chip', 'bg-primary-container', 'text-on-primary-container', 'font-bold', 'shadow-sm');
+        pill.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+
+        const ecKey = pill.getAttribute('data-ec');
+        if (ecDesc) ecDesc.textContent = ecMap[ecKey];
+        showToast(`Error correction set to Level ${ecKey}`);
+      });
+    });
+
+    // 6. Center Logo Configuration
+    const logoToggle = document.getElementById('logo-toggle');
+    const logoSettingsPanel = document.getElementById('logo-settings-panel');
+    const logoSizeSlider = document.getElementById('logo-size-slider');
+    const logoSizeValue = document.getElementById('logo-size-value');
+    const presetPlay = document.getElementById('logo-preset-play');
+    const presetQR = document.getElementById('logo-preset-qr');
+    const customLogoInput = document.getElementById('custom-logo-input');
+
+    logoToggle?.addEventListener('change', (e) => {
+      if (centerLogoBadge) {
+        centerLogoBadge.style.display = e.target.checked ? 'flex' : 'none';
+      }
+      if (logoSettingsPanel) {
+        logoSettingsPanel.style.opacity = e.target.checked ? '1' : '0.4';
+        logoSettingsPanel.style.pointerEvents = e.target.checked ? 'auto' : 'none';
+      }
+      showToast(e.target.checked ? 'Badge logo enabled' : 'Badge logo hidden');
+    });
+
+    logoSizeSlider?.addEventListener('input', (e) => {
+      const val = e.target.value;
+      if (logoSizeValue) logoSizeValue.textContent = `${val}%`;
+      if (centerLogoBadge) {
+        const px = Math.round((val / 100) * 200);
+        centerLogoBadge.style.width = `${px}px`;
+        centerLogoBadge.style.height = `${px}px`;
+      }
+    });
+
+    presetPlay?.addEventListener('click', () => {
+      presetPlay.classList.add('active-chip', 'text-tertiary');
+      presetQR?.classList.remove('active-chip', 'text-tertiary');
+      presetQR?.classList.add('text-on-surface-variant');
+      if (centerLogoIcon) centerLogoIcon.textContent = 'play_arrow';
+      showToast('Overlay icon: Play');
+    });
+
+    presetQR?.addEventListener('click', () => {
+      presetQR.classList.add('active-chip', 'text-tertiary');
+      presetPlay?.classList.remove('active-chip', 'text-tertiary');
+      presetPlay?.classList.add('text-on-surface-variant');
+      if (centerLogoIcon) centerLogoIcon.textContent = 'qr_code_2';
+      showToast('Overlay icon: Scan glyph');
+    });
+
+    customLogoInput?.addEventListener('change', () => {
+      if (customLogoInput.files && customLogoInput.files[0]) {
+        if (centerLogoIcon) centerLogoIcon.textContent = 'verified';
+        showToast('Custom glyph badge applied!');
+      }
+    });
+
+    // 7. Copy Link Button
+    const copyBtn = document.getElementById('copy-link-btn');
+    copyBtn?.addEventListener('click', () => {
+      navigator.clipboard?.writeText('https://videoqr.studio/video/a8f72c91');
+      showToast('URL copied to clipboard!', 'content_copy');
+    });
+
+    // 8. Download & Share Triggers
+    const dlPNG = document.getElementById('dl-png-btn');
+    const dlJPG = document.getElementById('dl-jpg-btn');
+    const dlSVG = document.getElementById('dl-svg-btn');
+    const shareBtn = document.getElementById('share-web-api-btn');
+
+    dlPNG?.addEventListener('click', () => showToast('Generated high-res 2048x2048 PNG', 'download'));
+    dlJPG?.addEventListener('click', () => showToast('Generated compressed CMYK JPG', 'download'));
+    dlSVG?.addEventListener('click', () => showToast('Exported infinitely-scalable SVG vector', 'download'));
+
+    shareBtn?.addEventListener('click', () => {
+      if (navigator.share) {
+        navigator.share({
+          title: 'Cinematic Sunset - VideoQR',
+          text: 'Scan to play high-bitrate video stream',
+          url: 'https://videoqr.studio/video/a8f72c91'
+        }).catch(() => {});
+      } else {
+        navigator.clipboard?.writeText('https://videoqr.studio/video/a8f72c91');
+        showToast('Web Share invoked: Link copied to clipboard', 'share');
+      }
+    });
+
+    // 9. Reset Button
+    const resetBtn = document.getElementById('reset-style-btn');
+    resetBtn?.addEventListener('click', () => {
+      pColor.value = '#6366F1';
+      sColor.value = '#06B6D4';
+      bgColor.value = '#0E1321';
+      updateColors();
+      if (qrPreviewWrapper) qrPreviewWrapper.style.backgroundColor = '#0e1321';
+      showToast('Studio parameters reset to default');
+    });
+
+    // 10. File upload simulation
+    const fileInput = document.getElementById('video-file-input');
+    fileInput?.addEventListener('change', (e) => {
+      if (e.target.files && e.target.files[0]) {
+        const file = e.target.files[0];
+        showToast(`Uploading ${file.name}...`, 'cloud_upload');
+        const prog = document.getElementById('progress-indicator');
+        const uploadPercent = document.getElementById('upload-percent');
+        if (prog && uploadPercent) {
+          prog.style.width = '0%';
+          uploadPercent.textContent = '0%';
+          let p = 0;
+          const interval = setInterval(() => {
+            p += 25;
+            prog.style.width = p + '%';
+            uploadPercent.textContent = p + '%';
+            if (p >= 100) {
+              clearInterval(interval);
+              showToast('Transcode complete & dynamic QR ready!', 'task_alt');
+            }
+          }, 150);
+        }
+      }
+    });
+
+  })();
+</script></main><footer class="w-full bg-surface-container-lowest mt-space-xl"><div class="w-full px-gutter-mobile lg:px-gutter py-space-xl flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-6 h-6 rounded-lg bg-surface-container flex items-center justify-center text-tertiary"><span class="material-symbols-outlined text-[16px]">qr_code_scanner</span></div><span class="font-headline-sm text-headline-sm text-on-surface">VideoQR Studio</span><span class="font-code-sm text-code-sm text-on-surface-variant ml-space-xs">v2.4.0</span></div><div class="flex items-center gap-space-lg text-on-surface-variant"><a class="font-label-md text-label-md hover:text-on-surface transition-colors" data-path="docs-and-api" href="#">API Status</a><a class="font-label-md text-label-md hover:text-on-surface transition-colors" data-path="docs-and-api" href="#">Security</a><a class="font-label-md text-label-md hover:text-on-surface transition-colors" data-path="docs-and-api" href="#">Privacy Policy</a></div><p class="font-body-sm text-body-sm text-on-surface-variant">© 2024 VideoQR Studio Inc. Next-gen telemetry &amp; interactive video.</p></div></footer><nav class="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-surface-container-lowest/90 backdrop-blur-2xl shadow-[0_-1px_12px_rgba(0,0,0,0.4)] px-space-xs py-space-xs flex items-center justify-around" data-active-classes="text-tertiary font-label-md"><a class="flex flex-col items-center justify-center flex-1 py-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="dashboard" href="../videoqr_studio_dashboard_analytics/code.html"><span class="material-symbols-outlined text-[22px]">dashboard</span><span class="font-label-sm text-label-sm mt-0.5">Dashboard</span></a><a aria-current="page" class="flex flex-col items-center justify-center flex-1 py-1 transition-colors text-tertiary font-label-md" data-path="studio" href="../videoqr_studio_create_customize_qr/code.html"><div class="-mt-5 w-11 h-11 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shadow-[0_0_16px_rgba(128,131,255,0.45)]"><span class="material-symbols-outlined text-[24px]">add</span></div><span class="font-label-sm text-label-sm mt-1">Studio</span></a><a class="flex flex-col items-center justify-center flex-1 py-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="public-video-view" href="../public_video_playback_videoqr_studio/code.html"><span class="material-symbols-outlined text-[22px]">play_circle</span><span class="font-label-sm text-label-sm mt-0.5">Demo</span></a><a class="flex flex-col items-center justify-center flex-1 py-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="docs-and-api" href="#"><span class="material-symbols-outlined text-[22px]">code</span><span class="font-label-sm text-label-sm mt-0.5">API Docs</span></a></nav><script src="../videoqr_config.js"></script><script src="../videoqr_studio_runtime.js"></script></body></html>
